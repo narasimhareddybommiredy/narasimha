@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            text-align: center;
+            margin: 20px 0;
+        }
+        header img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #ccc;
+            margin-top: 10px;
+        }
+        section {
+            width: 80%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 100%; /* Ensure images resize to fit the container */
+            max-width: 600px; /* Set a maximum width */
+            height: auto; /* Maintain aspect ratio */
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        .image-container p {
+            text-align: left;
+            margin: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <img src="" alt="My Photo">
+        <p>This is a photo of mine! I live in Visakhapatnam, also known as the City of Destiny or often called Vizag.</p>
+    </header>
+    <section>
+        <h2>Gallery</h2>
+        <p>Here is a small description about my city. Explore some of the amazing photos below.</p>
+
+        <div class="image-container">
+            <img src="" alt="RK Beach">
+            <p>Description: Stunning visuals of RK Beach, one of the most visited places in my city.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="" alt="Kailasagiri">
+            <p>Description: A photo of Kailasagiri, the most famous place in Vizag.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="" alt="Submarine Museum">
+            <p>Description: The INS Kursura Submarine Museum in Visakhapatnam is a unique and iconic attraction located on RK Beach. It is a decommissioned Soviet-built submarine that served in the Indian Navy for 31 years before being converted into a museum in 2002.</p>
+        </div>
+    </section>
+</body>
+</html>
